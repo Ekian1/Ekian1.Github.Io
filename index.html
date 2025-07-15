@@ -3,22 +3,266 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ekian's Page</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>AI Technology - Exploring the Future</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Ekian's Page</h1>
-    </header>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-brain"></i>
+                <span>AI Technology</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="applications.html" class="nav-link">Applications</a></li>
+                <li><a href="machine-learning.html" class="nav-link">Machine Learning</a></li>
+                <li><a href="ethics.html" class="nav-link">Ethics & Risks</a></li>
+                <li><a href="future.html" class="nav-link">Future</a></li>
+                <li><a href="resources.html" class="nav-link">Resources</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
     <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Hello! I'm Ekian.</p>
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Exploring the World of <span class="highlight">Artificial Intelligence</span></h1>
+                    <p class="hero-description">
+                        Discover how AI is transforming industries, revolutionizing technology, and shaping the future of humanity. 
+                        From machine learning to neural networks, explore the cutting-edge world of artificial intelligence.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#what" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i>
+                            Learn More
+                        </a>
+                        <a href="applications.html" class="btn btn-secondary">
+                            <i class="fas fa-cogs"></i>
+                            Applications
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="ai-illustration">
+                        <i class="fas fa-brain"></i>
+                        <div class="neural-network">
+                            <div class="node node-1"></div>
+                            <div class="node node-2"></div>
+                            <div class="node node-3"></div>
+                            <div class="node node-4"></div>
+                            <div class="node node-5"></div>
+                            <div class="node node-6"></div>
+                            <div class="connection conn-1"></div>
+                            <div class="connection conn-2"></div>
+                            <div class="connection conn-3"></div>
+                            <div class="connection conn-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="what" class="what-is-ai">
+            <div class="container">
+                <h2 class="section-title">What is Artificial Intelligence?</h2>
+                <div class="ai-definition">
+                    <div class="definition-content">
+                        <p class="definition-text">
+                            Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think, learn, and solve problems. It encompasses a broad range of technologies including machine learning, natural language processing, computer vision, robotics, and expert systems.
+                        </p>
+                        <div class="ai-types">
+                            <div class="type-card">
+                                <div class="type-icon">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <h3>Narrow AI</h3>
+                                <p>Designed for specific tasks like voice recognition or image classification</p>
+                            </div>
+                            <div class="type-card">
+                                <div class="type-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <h3>General AI</h3>
+                                <p>Hypothetical AI with human-like cognitive abilities across all domains</p>
+                            </div>
+                            <div class="type-card">
+                                <div class="type-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h3>Superintelligent AI</h3>
+                                <p>AI that surpasses human intelligence in all aspects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="key-technologies">
+            <div class="container">
+                <h2 class="section-title">Key AI Technologies</h2>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Machine Learning</h3>
+                        <p>Algorithms that enable computers to learn and improve from experience without being explicitly programmed.</p>
+                        <ul>
+                            <li>Supervised Learning</li>
+                            <li>Unsupervised Learning</li>
+                            <li>Reinforcement Learning</li>
+                        </ul>
+                    </div>
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>Natural Language Processing</h3>
+                        <p>Enables computers to understand, interpret, and generate human language in a meaningful way.</p>
+                        <ul>
+                            <li>Text Analysis</li>
+                            <li>Language Translation</li>
+                            <li>Chatbots & Virtual Assistants</li>
+                        </ul>
+                    </div>
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Computer Vision</h3>
+                        <p>Enables machines to interpret and understand visual information from the world around them.</p>
+                        <ul>
+                            <li>Image Recognition</li>
+                            <li>Object Detection</li>
+                            <li>Facial Recognition</li>
+                        </ul>
+                    </div>
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Neural Networks</h3>
+                        <p>Computing systems inspired by biological neural networks, forming the foundation of deep learning.</p>
+                        <ul>
+                            <li>Deep Learning</li>
+                            <li>Convolutional Networks</li>
+                            <li>Recurrent Networks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ai-stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">$500B+</div>
+                        <div class="stat-label">AI Market Value (2024)</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">97%</div>
+                        <div class="stat-label">Accuracy in Image Recognition</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2.5M+</div>
+                        <div class="stat-label">AI Research Papers</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">85%</div>
+                        <div class="stat-label">Companies Using AI</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quick-links">
+            <div class="container">
+                <h2 class="section-title">Explore AI Topics</h2>
+                <div class="links-grid">
+                    <a href="applications.html" class="link-card">
+                        <i class="fas fa-cogs"></i>
+                        <h3>AI Applications</h3>
+                        <p>Discover how AI is used in various industries</p>
+                    </a>
+                    <a href="machine-learning.html" class="link-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Machine Learning</h3>
+                        <p>Learn about algorithms and data science</p>
+                    </a>
+                    <a href="ethics.html" class="link-card">
+                        <i class="fas fa-balance-scale"></i>
+                        <h3>AI Ethics</h3>
+                        <p>Explore the ethical implications of AI</p>
+                    </a>
+                    <a href="future.html" class="link-card">
+                        <i class="fas fa-crystal-ball"></i>
+                        <h3>Future of AI</h3>
+                        <p>Predictions and emerging trends</p>
+                    </a>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Ekian & his dad. All rights reserved.</p>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AI Technology</h3>
+                    <p>Exploring the cutting-edge world of artificial intelligence and its impact on society.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Topics</h4>
+                    <ul>
+                        <li><a href="applications.html">AI Applications</a></li>
+                        <li><a href="machine-learning.html">Machine Learning</a></li>
+                        <li><a href="ethics.html">AI Ethics</a></li>
+                        <li><a href="future.html">Future of AI</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="resources.html">Learning Resources</a></li>
+                        <li><a href="#">Research Papers</a></li>
+                        <li><a href="#">AI Tools</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Our Mission</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI Technology. All rights reserved. | Exploring the future of artificial intelligence.</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 
+</html> 

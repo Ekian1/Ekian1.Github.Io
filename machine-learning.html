@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning - AI Technology</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-brain"></i>
+                <span>AI Technology</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="applications.html" class="nav-link">Applications</a></li>
+                <li><a href="machine-learning.html" class="nav-link active">Machine Learning</a></li>
+                <li><a href="ethics.html" class="nav-link">Ethics & Risks</a></li>
+                <li><a href="future.html" class="nav-link">Future</a></li>
+                <li><a href="resources.html" class="nav-link">Resources</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Machine Learning</h1>
+                <p class="page-subtitle">Explore the algorithms, techniques, and applications that power modern artificial intelligence systems.</p>
+            </div>
+        </section>
+
+        <section class="ml-overview">
+            <div class="container">
+                <h2 class="section-title">What is Machine Learning?</h2>
+                <div class="ml-definition">
+                    <p class="definition-text">
+                        Machine Learning is a subset of artificial intelligence that enables computers to learn and improve from experience without being explicitly programmed. 
+                        It focuses on developing algorithms that can access data and use it to learn for themselves.
+                    </p>
+                    <div class="ml-principles">
+                        <div class="principle-card">
+                            <div class="principle-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3>Data-Driven</h3>
+                            <p>ML algorithms learn patterns from large datasets to make predictions and decisions.</p>
+                        </div>
+                        <div class="principle-card">
+                            <div class="principle-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>Iterative Learning</h3>
+                            <p>Models improve their performance through continuous training and feedback.</p>
+                        </div>
+                        <div class="principle-card">
+                            <div class="principle-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <h3>Automated Optimization</h3>
+                            <p>Algorithms automatically adjust parameters to minimize errors and maximize accuracy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ml-types">
+            <div class="container">
+                <h2 class="section-title">Types of Machine Learning</h2>
+                <div class="types-grid">
+                    <div class="type-card-large">
+                        <div class="type-header">
+                            <div class="type-icon-large">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3>Supervised Learning</h3>
+                        </div>
+                        <div class="type-content">
+                            <p>Learning from labeled training data to make predictions on new, unseen data.</p>
+                            <h4>Key Algorithms:</h4>
+                            <ul>
+                                <li><strong>Linear Regression:</strong> Predicting continuous values</li>
+                                <li><strong>Logistic Regression:</strong> Binary classification problems</li>
+                                <li><strong>Decision Trees:</strong> Tree-based classification and regression</li>
+                                <li><strong>Random Forest:</strong> Ensemble of decision trees</li>
+                                <li><strong>Support Vector Machines:</strong> Classification with maximum margin</li>
+                                <li><strong>Neural Networks:</strong> Deep learning for complex patterns</li>
+                            </ul>
+                            <div class="example">
+                                <strong>Example:</strong> Email spam detection, where emails are labeled as "spam" or "not spam" for training.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="type-card-large">
+                        <div class="type-header">
+                            <div class="type-icon-large">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <h3>Unsupervised Learning</h3>
+                        </div>
+                        <div class="type-content">
+                            <p>Finding hidden patterns in data without predefined labels or outcomes.</p>
+                            <h4>Key Algorithms:</h4>
+                            <ul>
+                                <li><strong>K-Means Clustering:</strong> Grouping similar data points</li>
+                                <li><strong>Hierarchical Clustering:</strong> Tree-based clustering</li>
+                                <li><strong>Principal Component Analysis:</strong> Dimensionality reduction</li>
+                                <li><strong>Autoencoders:</strong> Neural networks for feature learning</li>
+                                <li><strong>DBSCAN:</strong> Density-based clustering</li>
+                                <li><strong>Gaussian Mixture Models:</strong> Probabilistic clustering</li>
+                            </ul>
+                            <div class="example">
+                                <strong>Example:</strong> Customer segmentation, where customers are grouped based on purchasing behavior.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="type-card-large">
+                        <div class="type-header">
+                            <div class="type-icon-large">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <h3>Reinforcement Learning</h3>
+                        </div>
+                        <div class="type-content">
+                            <p>Learning through interaction with an environment to maximize cumulative rewards.</p>
+                            <h4>Key Algorithms:</h4>
+                            <ul>
+                                <li><strong>Q-Learning:</strong> Value-based learning</li>
+                                <li><strong>Policy Gradient:</strong> Direct policy optimization</li>
+                                <li><strong>Deep Q-Networks:</strong> Neural networks for Q-learning</li>
+                                <li><strong>Actor-Critic:</strong> Combining policy and value methods</li>
+                                <li><strong>Monte Carlo Methods:</strong> Sampling-based learning</li>
+                                <li><strong>Temporal Difference Learning:</strong> Bootstrapping methods</li>
+                            </ul>
+                            <div class="example">
+                                <strong>Example:</strong> Game AI (like AlphaGo) that learns optimal strategies through gameplay.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="deep-learning">
+            <div class="container">
+                <h2 class="section-title">Deep Learning</h2>
+                <p class="section-description">
+                    Deep Learning is a subset of machine learning that uses neural networks with multiple layers to model and understand complex patterns in data.
+                </p>
+                <div class="dl-architectures">
+                    <div class="architecture-card">
+                        <div class="arch-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Convolutional Neural Networks (CNNs)</h3>
+                        <p>Specialized for processing grid-like data such as images. Uses convolutional layers to detect features like edges, textures, and patterns.</p>
+                        <div class="arch-applications">
+                            <strong>Applications:</strong> Image recognition, object detection, medical imaging, autonomous vehicles
+                        </div>
+                    </div>
+
+                    <div class="architecture-card">
+                        <div class="arch-icon">
+                            <i class="fas fa-arrows-alt-h"></i>
+                        </div>
+                        <h3>Recurrent Neural Networks (RNNs)</h3>
+                        <p>Designed for sequential data processing. Maintains memory of previous inputs through hidden states.</p>
+                        <div class="arch-applications">
+                            <strong>Applications:</strong> Natural language processing, speech recognition, time series prediction, machine translation
+                        </div>
+                    </div>
+
+                    <div class="architecture-card">
+                        <div class="arch-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Transformers</h3>
+                        <p>Attention-based architecture that revolutionized NLP. Processes entire sequences simultaneously using self-attention mechanisms.</p>
+                        <div class="arch-applications">
+                            <strong>Applications:</strong> Language models (GPT, BERT), text generation, question answering, summarization
+                        </div>
+                    </div>
+
+                    <div class="architecture-card">
+                        <div class="arch-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h3>Generative Adversarial Networks (GANs)</h3>
+                        <p>Consists of two competing networks: a generator that creates fake data and a discriminator that tries to distinguish real from fake.</p>
+                        <div class="arch-applications">
+                            <strong>Applications:</strong> Image generation, style transfer, data augmentation, creating synthetic data
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ml-workflow">
+            <div class="container">
+                <h2 class="section-title">Machine Learning Workflow</h2>
+                <div class="workflow-steps">
+                    <div class="workflow-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Data Collection</h3>
+                            <p>Gathering relevant data from various sources including databases, APIs, sensors, and web scraping.</p>
+                        </div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Data Preprocessing</h3>
+                            <p>Cleaning, transforming, and preparing data for analysis including handling missing values and feature engineering.</p>
+                        </div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Model Selection</h3>
+                            <p>Choosing appropriate algorithms based on the problem type, data characteristics, and performance requirements.</p>
+                        </div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Training</h3>
+                            <p>Fitting the model to training data by optimizing parameters to minimize prediction errors.</p>
+                        </div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h3>Evaluation</h3>
+                            <p>Assessing model performance using metrics like accuracy, precision, recall, and F1-score on test data.</p>
+                        </div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-number">6</div>
+                        <div class="step-content">
+                            <h3>Deployment</h3>
+                            <p>Integrating the trained model into production systems for real-world applications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ml-tools">
+            <div class="container">
+                <h2 class="section-title">Popular ML Tools & Frameworks</h2>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3>Python Libraries</h3>
+                        <ul>
+                            <li><strong>Scikit-learn:</strong> Traditional ML algorithms</li>
+                            <li><strong>TensorFlow:</strong> Deep learning framework</li>
+                            <li><strong>PyTorch:</strong> Research-focused deep learning</li>
+                            <li><strong>Pandas:</strong> Data manipulation and analysis</li>
+                            <li><strong>NumPy:</strong> Numerical computing</li>
+                        </ul>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Cloud Platforms</h3>
+                        <ul>
+                            <li><strong>Google Cloud AI:</strong> AutoML and custom models</li>
+                            <li><strong>AWS SageMaker:</strong> End-to-end ML platform</li>
+                            <li><strong>Azure ML:</strong> Microsoft's ML services</li>
+                            <li><strong>IBM Watson:</strong> Enterprise AI solutions</li>
+                            <li><strong>Databricks:</strong> Unified analytics platform</li>
+                        </ul>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>Visualization Tools</h3>
+                        <ul>
+                            <li><strong>Matplotlib:</strong> Basic plotting library</li>
+                            <li><strong>Seaborn:</strong> Statistical data visualization</li>
+                            <li><strong>Plotly:</strong> Interactive visualizations</li>
+                            <li><strong>Tableau:</strong> Business intelligence</li>
+                            <li><strong>Power BI:</strong> Microsoft's BI platform</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AI Technology</h3>
+                    <p>Exploring the cutting-edge world of artificial intelligence and its impact on society.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Topics</h4>
+                    <ul>
+                        <li><a href="applications.html">AI Applications</a></li>
+                        <li><a href="machine-learning.html">Machine Learning</a></li>
+                        <li><a href="ethics.html">AI Ethics</a></li>
+                        <li><a href="future.html">Future of AI</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="resources.html">Learning Resources</a></li>
+                        <li><a href="#">Research Papers</a></li>
+                        <li><a href="#">AI Tools</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Our Mission</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI Technology. All rights reserved. | Exploring the future of artificial intelligence.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
